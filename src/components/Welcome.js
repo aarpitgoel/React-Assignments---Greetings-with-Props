@@ -5,7 +5,9 @@ export default function Welcome(props) {
   const name = props.name;
   return (
     <>
-      <h1>"Hey !"+ {name} </h1>
+      <div>
+        "Hey !" + <h1>{name}</h1>
+      </div>
       <h2>"Welcome to Newton School."</h2>
     </>
   );
